@@ -2639,12 +2639,6 @@
 		(uuid "8e4bf62c-361d-445a-8547-0b905ac9ff5a")
 	)
 	(junction
-		(at 40.64 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbab930f-298f-4dc0-a7f0-7897d1ab2535")
-	)
-	(junction
 		(at 153.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2741,26 +2735,6 @@
 			(type default)
 		)
 		(uuid "1e3e94a6-eb6f-402b-a406-9175ae862c1e")
-	)
-	(wire
-		(pts
-			(xy 35.56 102.87) (xy 40.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e65e781-a6e7-4c2b-98b0-f7a56dcbac67")
-	)
-	(wire
-		(pts
-			(xy 40.64 97.79) (xy 40.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd03c05-0e47-46e5-abaf-5d0f69cdf2c3")
 	)
 	(wire
 		(pts
@@ -2984,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 102.87) (xy 57.15 102.87)
+			(xy 35.56 102.87) (xy 57.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3622,16 +3596,6 @@
 		)
 		(uuid "a6f75a12-2c63-4f31-b085-62fa891bb715")
 	)
-	(label "LV_Status"
-		(at 40.64 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac748720-b163-478b-af93-1d24f4cc4376")
-	)
 	(label "Relayoutput"
 		(at 198.12 39.37 180)
 		(effects
@@ -3693,7 +3657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "015ff035-147b-4683-b2f9-a98c22a93f61")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 58.8772 116.9416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3743,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02cedc41-48ee-4b8d-9b0b-d61d91050b81")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 79.1972 130.9116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,7 +3846,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "042d2196-9f64-4cb1-8d8e-5fafdafd8625")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 149.0472 110.5916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +3949,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4003,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08227eca-5958-4be9-8abd-07a8e99303c1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 73.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4063,7 +4027,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4081,7 +4045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11ce66e7-3d4c-44f4-b498-cc8a3b94f737")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 24.765 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4107,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4162,7 +4126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "178d0803-8440-4a56-bad4-83a71729aeff")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4222,7 +4186,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b444ec1-a7d2-4e74-9997-c507e1b2c4e6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR02"
 			(at 45.72 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4263,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR09")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4419,7 +4383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24aeffc5-1db8-4fe0-9321-44ea37051d08")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 77.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4479,7 +4443,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR010")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26467212-57f1-4095-907b-ca70269f4480")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4521,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4574,7 +4538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b5355a-4382-4785-97e2-f6c0e7c1c26c")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 59.436 127.1016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4630,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c3c4d33-9163-41c7-9cc7-f0712bda7071")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 41.8084 129.9972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4733,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dcd3e4a-5206-411d-a859-b5f3cc5a095f")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 35.56 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4810,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5177db44-61c3-4105-8e5b-a37b03592d23")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 57.15 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4923,7 +4887,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4940,7 +4904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5436a778-d602-43e9-96d2-d60ed1970a6a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +4964,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5098,7 +5062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61e5e58f-52c8-46d5-933d-28382085b133")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 24.765 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5166,7 +5130,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5184,7 +5148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67782dde-a98f-4778-aa13-40ca2afb2af6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 171.45 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5244,7 +5208,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5261,7 +5225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a0e9fd6-83cd-45d6-8e70-00b11a434b88")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 90.6272 116.9416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +5311,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5365,7 +5329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd9b89f-664d-42df-8b2c-f77c8631915b")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 65.405 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5391,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5444,7 +5408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8412fc92-bfe5-4487-a1ca-00ae16375150")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 91.186 127.1016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5536,7 +5500,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5553,7 +5517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84289ead-c94c-4a72-b476-bb58df003d0a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5613,7 +5577,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5825,7 +5789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a90be3e3-5baa-4f03-89d8-ad258a45180b")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 123.952 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,7 +5853,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6009,7 +5973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa7773db-41d4-4921-8ed2-ce6d740fc3d7")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 90.6272 106.7816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6059,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6192,7 +6156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf11649f-a082-413a-b69f-70ecd632fe7b")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 73.5584 129.9972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6242,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6297,7 +6261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ed3371-099c-4997-b26c-a0fe9795e379")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 205.74 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,7 +6323,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6377,7 +6341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a8dc4d-d58d-4cef-8b31-213b2438a6e8")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 66.04 96.7232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,7 +6428,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6482,7 +6446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6095e69-8f42-4087-ba15-4ea6231a7688")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 97.79 96.7232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6569,7 +6533,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6666,7 +6630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e068cf9c-36c7-4000-aeb4-4386523f65a4")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 58.8772 106.7816 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6716,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6769,7 +6733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6db2001-e1e0-4e01-9083-ab0635d22930")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 47.4472 130.9116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6855,7 +6819,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6983,7 +6947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f425b552-ddd3-4dcb-812b-3acf43029234")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 116.205 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7009,7 @@
 		(instances
 			(project "Charger Shutdown Circuit"
 				(path "/301bc50e-ce57-49bf-a5a2-8423cd4c9567"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
